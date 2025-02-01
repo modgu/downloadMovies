@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify('Server is Up')
+    return "Hello"
 
 @app.route('/download')
 def download():
